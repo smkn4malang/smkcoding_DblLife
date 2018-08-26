@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical"
+    tools:context=".ForgotActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40sp"
+        android:textColor="#f23"
+        android:layout_marginTop="100dp"
+        android:text="Forgot\nPassword"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginTop="70dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/blueaqua"
+        android:hint="Enter your code"
+        android:maxLength="6"
+        android:inputType="text" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/btn"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_action_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="PLease enter code we send to your email"
+                android:textSize="20sp"
+                android:layout_weight="10"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
