@@ -31,7 +31,7 @@ public class Searching extends AppCompatActivity implements SearchView.OnQueryTe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_searching);
-        lv = (ListView) findViewById(R.id.idlistview);
+        lv = (ListView) findViewById(R.id.listview);
         searchView = (SearchView) findViewById(R.id.idsearch);
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data);
         lv.setAdapter(adapter);

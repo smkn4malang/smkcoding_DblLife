@@ -11,9 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Splash">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".SignUp" />
@@ -23,6 +23,15 @@
         <activity android:name=".FragmentActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".ClubActivity" />
+        <activity
+            android:name=".navbar"
+            android:label="@string/title_activity_navbar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".navv"
+            android:label="@string/title_activity_navv" />
+        <activity android:name=".CommentActivity" />
+        <activity android:name=".ProfilActivity" />
     </application>
 
 </manifest>

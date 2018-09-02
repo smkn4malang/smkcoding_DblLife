@@ -43,6 +43,7 @@
             android:orientation="horizontal" >
 
             <Button
+                android:onClick="haha"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:text="Comment"
@@ -50,6 +51,8 @@
                 android:textColor="@color/colorAccent"
                 android:layout_height="match_parent" />
             <Button
+                android:onClick="btnClick"
+                android:id="@+id/like"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:text="Like"

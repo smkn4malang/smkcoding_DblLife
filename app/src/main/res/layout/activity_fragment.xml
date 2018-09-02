@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".navbar"
     android:orientation="vertical">
 
     <LinearLayout
@@ -16,7 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="-10dp"
-            android:text="Home"
+            android:onClick="ssss"
+            android:text="Profil"
             android:background="@color/colorPrimary"
             android:textColor="@color/colorAccent"
             android:layout_weight="2"/>
